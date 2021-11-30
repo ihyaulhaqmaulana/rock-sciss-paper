@@ -54,7 +54,7 @@ function rockValue() {
   }
 }
 
-function scissorValue() {
+function scissValue() {
   if (yourValue == "Gunting" && computerValue == "Kertas") {
     return "Menang";
   } else if (yourValue == "Gunting" && computerValue == "Batu") {
@@ -69,7 +69,7 @@ let value;
 if (yourNumber == "1") {
   value = paperValue();
 } else if (yourNumber == "2") {
-  value = scissorValue();
+  value = scissValue();
 } else if (yourNumber == "3") {
   value = rockValue();
 }
